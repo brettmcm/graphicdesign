@@ -91,8 +91,8 @@ tabN.addEventListener('click', function(e) {
   comp.innerHTML = "100";
   detach.innerHTML = "8";
   inserts.innerHTML = "5,000";
-  chartD.srcset = "../native-inserts.png";
-  chartL.src = "../native-inserts-light.png";
+  chartD.srcset = "assets/ds-inserts/dark/native.png";
+  chartL.src = "assets/ds-inserts/light/native.png";
 });
 
 tabW.addEventListener('click', function(e) {
@@ -102,6 +102,6 @@ tabW.addEventListener('click', function(e) {
   comp.innerHTML = "394";
   detach.innerHTML = "11";
   inserts.innerHTML = "8,302";
-  chartD.srcset = "../web-inserts.png";
-  chartL.src = "../web-inserts-light.png";
+  chartD.srcset = "assets/ds-inserts/dark/web.png";
+  chartL.src = "assets/ds-inserts/light/web.png";
 });
