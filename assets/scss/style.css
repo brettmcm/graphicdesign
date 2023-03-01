@@ -144,7 +144,7 @@ hr {
     margin-bottom: 2em; }
 
 footer {
-  padding-bottom: 15vw; }
+  padding: 15vw 0; }
 
 header {
   padding: calc(1.5em + 2vw);
@@ -190,7 +190,7 @@ main {
   width: 90%;
   max-width: calc(700px + 5vw);
   margin: 0 auto;
-  padding: 55vh 0 20vh 0; }
+  padding: 55vh 0 0 0; }
   main.interior {
     padding-top: 20vh; }
 
