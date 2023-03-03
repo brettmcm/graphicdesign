@@ -475,10 +475,10 @@ section {
   section.card {
     // background: $black url(noise.png) top left/20;
     box-shadow:
-      0 1px 1px rgba($black, 0.075),
-      0 2px 2px rgba($black, 0.075),
-      0 4px 4px rgba($black, 0.075),
-      0 6px 6px rgba($black, 0.075),
+      0 1px 1px rgba(black, 0.075),
+      0 4px 4px rgba(black, 0.075),
+      0 6px 6px rgba(black, 0.075),
+      0 2px 2px rgba(black, 0.075),
       0px 0px 0px 1px rgba(255,255,255,0.035);
   }
   
