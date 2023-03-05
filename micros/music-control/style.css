@@ -1,0 +1,274 @@
+@font-face {
+  font-family: "inter";
+  src: url("/micros/music-control/Inter-Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: "inter-bold";
+  src: url("/micros/music-control/Inter-Bold.woff") format("woff"); }
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+:focus {
+  outline: 0; }
+
+body {
+  line-height: 1;
+  color: black;
+  background: white; }
+
+ol,
+ul {
+  list-style: none; }
+
+table {
+  border-collapse: separate;
+  border-spacing: 0; }
+
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: ""; }
+
+blockquote,
+q {
+  quotes: "" ""; }
+
+* {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none; }
+
+::selection {
+  background: #25272c;
+  color: #f3f7fb; }
+
+::-moz-selection {
+  background: #25272c;
+  color: #f3f7fb; }
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: inter, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #25272c;
+  background: url("bg.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.iosrounded {
+  clip-path: polygon(27.78025px 0px, calc(100% - 27.780245px) 0px, calc(100% - 24.863493px) 0.01377px, calc(100% - 21.948297px) 0.10109px, calc(100% - 19.041332px) 0.32926px, calc(100% - 16.15855px) 0.7646px, calc(100% - 13.335013px) 1.48867px, calc(100% - 10.624739px) 2.55627px, calc(100% - 8.099386px) 4.00353px, calc(100% - 5.852834px) 5.85283px, calc(100% - 4.003531px) 8.09939px, calc(100% - 2.556274px) 10.62474px, calc(100% - 1.488674px) 13.33501px, calc(100% - 0.764596px) 16.15855px, calc(100% - 0.329262px) 19.04133px, calc(100% - 0.101089px) 21.9483px, calc(100% - 0.013767px) 24.86349px, calc(100% - 0.013767px) calc(100% - 24.863493px), calc(100% - 0.101089px) calc(100% - 21.948297px), calc(100% - 0.329262px) calc(100% - 19.041332px), calc(100% - 0.764596px) calc(100% - 16.15855px), calc(100% - 1.488674px) calc(100% - 13.335013px), calc(100% - 2.556274px) calc(100% - 10.624739px), calc(100% - 4.003531px) calc(100% - 8.099386px), calc(100% - 5.852834px) calc(100% - 5.852834px), calc(100% - 8.099386px) calc(100% - 4.003531px), calc(100% - 10.624739px) calc(100% - 2.556274px), calc(100% - 13.335013px) calc(100% - 1.488674px), calc(100% - 16.15855px) calc(100% - 0.764596px), calc(100% - 19.041332px) calc(100% - 0.329262px), calc(100% - 21.948297px) calc(100% - 0.101089px), calc(100% - 24.863493px) calc(100% - 0.013767px), calc(100% - 27.780245px) 100%, 27.78025px 100%, 24.86349px calc(100% - 0.013767px), 21.9483px calc(100% - 0.101089px), 19.04133px calc(100% - 0.329262px), 16.15855px calc(100% - 0.764596px), 13.33501px calc(100% - 1.488674px), 10.62474px calc(100% - 2.556274px), 8.09939px calc(100% - 4.003531px), 5.85283px calc(100% - 5.852834px), 4.00353px calc(100% - 8.099386px), 2.55627px calc(100% - 10.624739px), 1.48867px calc(100% - 13.335013px), 0.7646px calc(100% - 16.15855px), 0.32926px calc(100% - 19.041332px), 0.10109px calc(100% - 21.948297px), 0.01377px calc(100% - 24.863493px), 0.01377px 24.86349px, 0.10109px 21.9483px, 0.32926px 19.04133px, 0.7646px 16.15855px, 1.48867px 13.33501px, 2.55627px 10.62474px, 4.00353px 8.09939px, 5.85283px 5.85283px, 8.09939px 4.00353px, 10.62474px 2.55627px, 13.33501px 1.48867px, 16.15855px 0.7646px, 19.04133px 0.32926px, 21.9483px 0.10109px, 24.86349px 0.01377px, 27.78025px 0px); }
+
+.iosrounded-interior {
+  clip-path: polygon(11.1121px 0px, calc(100% - 11.112098px) 0px, calc(100% - 9.945397px) 0.00551px, calc(100% - 8.779319px) 0.04044px, calc(100% - 7.616533px) 0.1317px, calc(100% - 6.46342px) 0.30584px, calc(100% - 5.334005px) 0.59547px, calc(100% - 4.249895px) 1.02251px, calc(100% - 3.239754px) 1.60141px, calc(100% - 2.341134px) 2.34113px, calc(100% - 1.601412px) 3.23975px, calc(100% - 1.02251px) 4.2499px, calc(100% - 0.59547px) 5.33401px, calc(100% - 0.305838px) 6.46342px, calc(100% - 0.131705px) 7.61653px, calc(100% - 0.040436px) 8.77932px, calc(100% - 0.005507px) 9.9454px, calc(100% - 0.005507px) calc(100% - 9.945397px), calc(100% - 0.040436px) calc(100% - 8.779319px), calc(100% - 0.131705px) calc(100% - 7.616533px), calc(100% - 0.305838px) calc(100% - 6.46342px), calc(100% - 0.59547px) calc(100% - 5.334005px), calc(100% - 1.02251px) calc(100% - 4.249895px), calc(100% - 1.601412px) calc(100% - 3.239754px), calc(100% - 2.341134px) calc(100% - 2.341134px), calc(100% - 3.239754px) calc(100% - 1.601412px), calc(100% - 4.249895px) calc(100% - 1.02251px), calc(100% - 5.334005px) calc(100% - 0.59547px), calc(100% - 6.46342px) calc(100% - 0.305838px), calc(100% - 7.616533px) calc(100% - 0.131705px), calc(100% - 8.779319px) calc(100% - 0.040436px), calc(100% - 9.945397px) calc(100% - 0.005507px), calc(100% - 11.112098px) 100%, 11.1121px 100%, 9.9454px calc(100% - 0.005507px), 8.77932px calc(100% - 0.040436px), 7.61653px calc(100% - 0.131705px), 6.46342px calc(100% - 0.305838px), 5.33401px calc(100% - 0.59547px), 4.2499px calc(100% - 1.02251px), 3.23975px calc(100% - 1.601412px), 2.34113px calc(100% - 2.341134px), 1.60141px calc(100% - 3.239754px), 1.02251px calc(100% - 4.249895px), 0.59547px calc(100% - 5.334005px), 0.30584px calc(100% - 6.46342px), 0.1317px calc(100% - 7.616533px), 0.04044px calc(100% - 8.779319px), 0.00551px calc(100% - 9.945397px), 0.00551px 9.9454px, 0.04044px 8.77932px, 0.1317px 7.61653px, 0.30584px 6.46342px, 0.59547px 5.33401px, 1.02251px 4.2499px, 1.60141px 3.23975px, 2.34113px 2.34113px, 3.23975px 1.60141px, 4.2499px 1.02251px, 5.33401px 0.59547px, 6.46342px 0.30584px, 7.61653px 0.1317px, 8.77932px 0.04044px, 9.9454px 0.00551px, 11.1121px 0px); }
+
+.dropshadow {
+  filter: drop-shadow(0px 7px 225px rgba(26, 53, 94, 0.08)) drop-shadow(0px 3px 7px rgba(32, 46, 74, 0.08)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.15)) drop-shadow(0px 0px 1px rgba(255, 255, 255, 0.15)); }
+
+.ztop1 {
+  z-index: 1; }
+
+.screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(243, 247, 251, 0.2);
+  opacity: 0;
+  transition: opacity 0.2s cubic-bezier(0.35, 0, 0, 1), backdrop-filter 0.2s cubic-bezier(0.35, 0, 0, 1);
+  pointer-events: none; }
+  .screen.active {
+    opacity: 1;
+    backdrop-filter: blur(2px);
+    pointer-events: all; }
+
+.eyebrow {
+  color: #6e757f;
+  font-size: 1em;
+  margin-bottom: 0.5em; }
+  .eyebrow:hover {
+    cursor: default; }
+  .eyebrow.small {
+    font-size: 0.9em; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2em; }
+  main .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em; }
+  main img.arrow {
+    width: 2em;
+    transition: transform 0.4s cubic-bezier(0.5, 0, 0, 1), opacity 0.4s cubic-bezier(0.5, 0, 0, 1); }
+    main img.arrow:hover {
+      transform: translateX(-0.25em);
+      opacity: 0.8; }
+  main .labels {
+    gap: 1em; }
+    main .labels h1 {
+      font-size: 4em;
+      font-family: inter-bold;
+      background: linear-gradient(180deg, rgba(37, 39, 44, 0.8) 0%, rgba(30, 32, 36, 0.8) 100%), rgba(0, 0, 0, 0.5);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      text-shadow: 0px 0px 1.89879px rgba(0, 0, 0, 0.05); }
+      main .labels h1:hover {
+        cursor: default; }
+  main .platform-holder {
+    position: relative;
+    width: 100%;
+    height: 77px; }
+    main .platform-holder .platform {
+      position: absolute;
+      width: 100%;
+      max-height: 77px;
+      display: flex;
+      flex-direction: column;
+      background: #fd2e49;
+      color: #f3f7fb;
+      padding: 0.5em;
+      font-size: 1.25em;
+      transition: all 0.2s cubic-bezier(0.35, 0, 0, 1);
+      transform: translateZ(0); }
+      main .platform-holder .platform .option {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0.3em 0.4em 0.3em 0.7em; }
+        main .platform-holder .platform .option .label {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          gap: 0.5em;
+          font-size: 1.1em; }
+          main .platform-holder .platform .option .label:hover {
+            cursor: default; }
+          main .platform-holder .platform .option .label svg {
+            width: 0.9em;
+            margin-top: -0.15em;
+            fill: #25272c;
+            transition: fill 0.2s cubic-bezier(0.35, 0, 0, 1); }
+        main .platform-holder .platform .option .down-arrow {
+          transition: opacity 0.2s cubic-bezier(0.35, 0, 0, 1), transform 0.2s cubic-bezier(0.35, 0, 0, 1); }
+        main .platform-holder .platform .option:not(.selected) .down-arrow {
+          opacity: 0; }
+      main .platform-holder .platform.active {
+        transform: scale(1.01);
+        max-height: 1000px;
+        background: #f3f7fb;
+        color: #25272c; }
+        main .platform-holder .platform.active .option {
+          display: flex; }
+          main .platform-holder .platform.active .option:hover {
+            color: var(--accent); }
+            main .platform-holder .platform.active .option:hover .label svg {
+              fill: var(--accent); }
+        main .platform-holder .platform.active .down-arrow {
+          opacity: 0; }
+  main .album {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+    background: white;
+    padding: 1.15em 1em 1.5em 1em; }
+    main .album .cover {
+      width: 350px;
+      aspect-ratio: 1; }
+    main .album .dropdown {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between; }
+      main .album .dropdown .label {
+        padding-left: 0.4em; }
+        main .album .dropdown .label h2 {
+          font-size: 1.25em;
+          color: #fd2e49; }
+          main .album .dropdown .label h2:hover {
+            cursor: default; }
