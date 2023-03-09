@@ -295,11 +295,13 @@ body {
             11.112098px 0px);
 }
 
-.dropshadow {
-    filter: drop-shadow(0px 7px 225px rgba(26, 53, 94, 0.08))
-        drop-shadow(0px 3px 7px rgba(32, 46, 74, 0.08))
-        drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.15))
-        drop-shadow(0px 0px 1px rgba(255, 255, 255, 0.15));
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+    .dropshadow {
+        filter: drop-shadow(0px 7px 225px rgba(26, 53, 94, 0.08))
+            drop-shadow(0px 3px 7px rgba(32, 46, 74, 0.08))
+            drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.15))
+            drop-shadow(0px 0px 1px rgba(255, 255, 255, 0.15));
+    }
 }
 
 .ztop1 {
