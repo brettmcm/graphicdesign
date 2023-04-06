@@ -214,6 +214,9 @@ main {
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover; }
 
 @media screen and (min-width: 900px) {
