@@ -221,9 +221,6 @@ main {
 @media screen and (min-width: 900px) {
   header {
     flex-direction: row; } }
-@media (hover: hover) and (pointer: fine) {
-  main section {
-    background-attachment: fixed; } }
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
   ::selection {
