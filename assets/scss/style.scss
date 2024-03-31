@@ -207,7 +207,7 @@ footer {
   font-size: 1.25em;
 
   width: 100%;
-  height: 100vh;
+  height: 95vh;
 
   letter-spacing: calc(0.5em - 0.25vw);
 
@@ -215,7 +215,7 @@ footer {
 
   user-select: none;
   pointer-events: none;
-  background-image: url('../bg-light.jpg');
+  // background-image: url('../bg-light.jpg');
   background-size: cover;
 
   nav {
@@ -223,11 +223,6 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
-  }
-
-  p,
-  a {
-    filter: blur(0.15px);
   }
 
   p {
@@ -250,7 +245,7 @@ footer {
 
   img {
     width: calc(80% - 40vw);
-    max-width: 400px;
+    max-width: 300px;
   }
 
 
@@ -324,7 +319,7 @@ main {
 
   header,
   footer {
-    background-image: url('../bg-dark.jpg');
+    // background-image: url('../bg-dark.jpg');
 
     a:hover {
       color: $white;
